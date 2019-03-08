@@ -1,0 +1,39 @@
+{
+  "name": "wx-nba",
+  "version": "1.0.0",
+  "description": "wechat app for nba",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecitlm/wx-nba.git"
+  },
+  "author": "ecitlm",
+  "license": "ISC",
+  "standard": {
+    "ignore": [
+      "/app/utils/bluebird.js",
+      "/app/pages/wxParse",
+      "/app/utils/md5.js"
+    ],
+    "globals": [
+      "Page",
+      "wx",
+      "getApp",
+      "App"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
